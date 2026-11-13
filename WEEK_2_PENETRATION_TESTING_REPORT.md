@@ -111,7 +111,7 @@ whois networkwalks.com
 
 **Evidence – WHOIS registration details**
 
-![WHOIS registration details](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/whois-registration.png)
+![WHOIS registration details](https://github.com/Nevin-Jolly/kali-network-reconnaissance/blob/main/screenshorts/whois-registration.png)
 
 **Evidence – WHOIS contact privacy and nameservers**
 
