@@ -111,11 +111,11 @@ whois networkwalks.com
 
 **Evidence – WHOIS registration details**
 
-![WHOIS registration details](screenshots/whois-registration.png)
+![WHOIS registration details](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/whois-registration.png)
 
 **Evidence – WHOIS contact privacy and nameservers**
 
-![WHOIS contact and nameserver details](screenshots/whois-contact-nameservers.png)
+![WHOIS contact and nameserver details](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/whois-contact-nameservers.png)
 
 ### 4.2 WhatWeb – Website Technology Fingerprinting
 
@@ -146,7 +146,7 @@ whatweb -v https://networkwalks.com/
 
 **Evidence – WhatWeb fingerprint**
 
-![WhatWeb fingerprint output](screenshots/whatweb-fingerprint.png)
+![WhatWeb fingerprint output](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/whatweb-fingerprint.png)
 
 ### 4.3 nslookup – DNS Resolution
 
@@ -168,7 +168,7 @@ nslookup networkwalks.com
 
 **Evidence – nslookup output**
 
-![nslookup DNS resolution](screenshots/nslookup-dns-resolution.png)
+![nslookup DNS resolution](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/nslookup-dns-resolution.png)
 
 ### 4.4 curl -I – HTTP Response Header Inspection
 
@@ -196,7 +196,7 @@ curl -I https://networkwalks.com
 
 **Evidence – HTTP response headers**
 
-![curl HTTP response headers](screenshots/curl-http-headers.png)
+![curl HTTP response headers](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/curl-http-headers.png)
 
 ### 4.5 WAFW00F – Web Application Firewall Fingerprinting
 
@@ -218,7 +218,7 @@ wafw00f https://networkwalks.com
 
 **Evidence – WAFW00F result**
 
-![WAFW00F identifies ModSecurity](screenshots/wafw00f-detection.png)
+![WAFW00F identifies ModSecurity](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/wafw00f-detection.png)
 
 ### 4.6 DNSRecon – DNS Record Enumeration
 
@@ -248,7 +248,7 @@ DNSRecon 1.6.0 completed general enumeration and reported **8 records**. The out
 
 **Evidence – DNSRecon output**
 
-![DNSRecon enumeration output](screenshots/dnsrecon-enumeration.png)
+![DNSRecon enumeration output](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/dnsrecon-enumeration.png)
 
 ## 5. W2-PM5 – Zenmap-Based Network Scanning (Essential)
 
@@ -286,11 +286,11 @@ The scan confirms that six devices responded to host discovery within the select
 
 **Evidence – Zenmap ping scan**
 
-![Zenmap ping scan showing six active hosts](screenshots/zenmap-ping-scan.png)
+![Zenmap ping scan showing six active hosts](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/zenmap-ping-scan.png)
 
 **Evidence – network topology diagram**
 
-![Network topology showing localhost and discovered hosts](screenshots/network-topology.png)
+![Network topology showing localhost and discovered hosts](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/network-topology.png)
 
 ## 6. Supplementary Activity – Traceroute
 
@@ -315,7 +315,7 @@ sudo traceroute -T -p 443 networkwalks.com
 
 **Evidence – traceroute output**
 
-![ICMP and TCP traceroute output](screenshots/traceroute-output.png)
+![ICMP and TCP traceroute output](https://raw.githubusercontent.com/Nevin-Jolly/kali-network-reconnaissance/main/screenshots/traceroute-output.png)
 
 ## 7. Consolidated Findings
 
